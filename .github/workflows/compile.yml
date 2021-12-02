@@ -1,5 +1,4 @@
-
-name: Compile-Linux
+name: Build
 
 on:
   push:
