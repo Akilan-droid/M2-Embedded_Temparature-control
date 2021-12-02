@@ -5,7 +5,6 @@ In this project I developed the temparature controlled vehicle seat heating syst
 
 ## Features
 * The System will sense is driver or passenger seated or not.
-* Driver or Passenger has the access to modify the temperature in the vehicle.
 * Heater will generate the heat accordingly.
 * The driver can request to set the temparature manually also.
 * It is best for american and European Countries.
