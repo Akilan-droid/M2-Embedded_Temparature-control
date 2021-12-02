@@ -1,13 +1,14 @@
 
 # Requirements
 ## Introduction
-The Vehicle Seat Heat Monitoring System is capable of maintaining of heat in the vehicles seats. In European countries, the temperature is very low and any electronic designer should make sure that his equipment should work efficiently in that whether. In our project, the sensor will sense is the driver has been seated or not and if the driver seated then he need to set the temperature accordingly. Based on that our controller will set the heater to required temperature. The Heater will generate the heat and a LCD display will show requested the temperature. In our project we have used ATmega328 microcontroller along with temperature sensor, Switches, Heat generator,and LCD diplay,etc.
+In this project I developed the temparature controlled vehicle seat heating system using Embedded C , Atmega328 Microcontroller and other equipments. In American and European countries, the temperature is very low and any electronic designer should make sure that his equipment should work efficiently in that whether. In our project, the sensor will sense is the driver has been seated or not and if the driver seated then he need to set the temperature accordingly (i.e) It is automated to set the temparature as per the Atmospheric temparature by sensing it. Based on that our controller will set the heater to required temperature. The Heater will generate the heat and a LCD display will show requested the temperature. In our project we have used ATmega328 microcontroller along with temperature sensor, Switches, Heat generator,and LCD diplay,etc.
 
 ## Features
 * The System will sense is driver or passenger seated or not.
 * Driver or Passenger has the access to modify the temperature in the vehicle.
-* As per Drivers request, Heater will generate the heat accordingly.
-* It is best for European Countries.
+* Heater will generate the heat accordingly.
+* The driver can request to set the temparature manually also.
+* It is best for american and European Countries.
 * Low cost and robust system.
 * Modular Approach.
 ## SWOT- Strengths, and Weakness, Opportunities Threats
