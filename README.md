@@ -1,10 +1,16 @@
 # M2-Embedded_Temparature-control
-## Passing Cases :
-### Both Switches ON
-| No | Features |
+# Folder Structure
+| Folder | Description |
 | ---- | ---- |
-| **20%** | ![20% duty cycle](https://user-images.githubusercontent.com/85438544/144424945-371a2914-876b-4826-98cd-352909fef523.png) |
-| **40%** | ![40 % duty cycle](https://user-images.githubusercontent.com/85438544/144425003-be3f0993-a548-4d03-8303-949089c05ab7.png)|
-| **70%** |![70% duty cycle](https://user-images.githubusercontent.com/85438544/144425054-26971fde-2f87-40bb-86f4-eb58b7af3c95.png)|
-| **95%** | ![95% duty cycle](https://user-images.githubusercontent.com/85438544/144425071-c3f049fa-15b1-4eb4-91c7-c64af09e204f.png)|
+| 1_Requirements | Documents detailing requirements and research |
+| 2_Design | Documents specifying design |
+| 3_Implementation | All codes and Documentation |
+| 4_Testplan | Documents with test plans |
+| 5_Imagesandvideos | All the images of this project |
+| 6_Report | Documentation of whole project |
+| 7_Others | Other Details |
 
+# Contributors List and Summary
+| Ps no. | Name | Features | Issues raised | Issues resolved | No test cases | Test case Pass |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| **_40020549_** | *Akilan B* | *F1,F2,F3* | 1 | 1 | 8 | 8 |
