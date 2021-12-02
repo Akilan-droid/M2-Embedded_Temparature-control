@@ -1,17 +1,45 @@
-#ifndef _A2_h_
-#define _A2_h_
-#include <util/delay.h>
-#define LCD_DIRECTION  DDRB			/* Define LCD data port direction */
-#define PORT_B PORTB			/* Define LCD data port */
-#define LCD_RS PB2				/* Define Register Select pin */
-#define LCD_EN PB3 				/* Define Enable signal pin */
-void LCD_CMD( unsigned char command );
-void LCD_CHAR_WISE( unsigned char ch );
-void LCD_INITIALIZATION(void);
-void LCD_DISPLAY (char *temperature_value);
-void CLEAR_LCD();
+#ifndef __A2_H__
+#define __A2_H__
+/**
+ * @file activity2.h
+ * @author Akilan B
+ * @brief This is the Header file for A2
+ * @version 0.1
+ * @date 2021-12-02
+ *
+ * @copyright Copyright (c) 2021
+ *
+ */
 
-void A2(void);
-void InitADC(void);
-uint16_t ReadADC(uint8_t ch);
-#endif // _A2_h_
+/**
+ * Include files
+ */
+#include <util/delay.h>
+#include <avr/io.h>
+
+/**
+ * Function Definitions
+ */
+
+/**
+ * @brief This Function Initialize the registers for ADC setup
+ *
+ */
+void Init_ADC();
+
+/**
+ * @brief This Function Gives the ADC values for the selected channel
+ *
+ * @param[in] ch Channel number from 0-7
+ * @return uint16_t ADC value
+ */
+uint16_t Read_ADC(uint8_t ch);
+
+/**
+ * @brief This Function Returns the ADC value to main function
+ *
+ * @return uint16_t The ADC value
+ */
+uint16_t GetADC(void);
+
+#endif /* __ACTIVITY2_H__ */
