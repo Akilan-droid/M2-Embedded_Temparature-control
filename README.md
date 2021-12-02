@@ -1,5 +1,6 @@
 # M2-Embedded_Temparature-control
-## Both Switches ON
+## Passing Cases :
+### Both Switches ON
 | No | Features |
 | ---- | ---- |
 | **20%** | ![20% duty cycle](https://user-images.githubusercontent.com/85438544/144424945-371a2914-876b-4826-98cd-352909fef523.png) |
