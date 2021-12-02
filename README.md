@@ -5,10 +5,10 @@
 | 1_Requirements | Documents detailing requirements and research |
 | 2_Design | Documents specifying design |
 | 3_Implementation | All codes and Documentation |
-| 4_Testplan | Documents with test plans |
-| 5_Imagesandvideos | All the images of this project |
-| 6_Report | Documentation of whole project |
-| 7_Others | Other Details |
+| 4_Simulation | Simulation of the circuit  |
+| 5_TestPlan | Contains TestPlans |
+| 6_Imagesandvideos | Images of outputs and inputs |
+| 7_Report| Report of the project |
 
 # Contributors List and Summary
 | Ps no. | Name | Features | Issues raised | Issues resolved | No test cases | Test case Pass |
