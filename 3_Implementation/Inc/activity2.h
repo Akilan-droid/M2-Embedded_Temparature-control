@@ -1,5 +1,5 @@
-#ifndef __A2_H__
-#define __A2_H__
+#ifndef __ACTIVITY2_H__
+#define __ACTIVITY2_H__
 /**
  * @file A2.h
  * @author Akilan B
