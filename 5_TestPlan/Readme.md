@@ -14,3 +14,9 @@
 | LLTP_3 | S1-Off , S2-On | NA | NA | Requirement Based |
 | LLTP_4 | S1-On , S2-On | (20%,40%,70%,95%)  | (20°C,25°C,29°C,33°C) | Requirement Based |
 
+| Folder | Description |
+| ---- | ---- |
+| S1 | Seat Switch |
+| S2 | Heater Switch |
+
+
