@@ -1,7 +1,7 @@
 #ifndef __A2_H__
 #define __A2_H__
 /**
- * @file activity2.h
+ * @file A2.h
  * @author Akilan B
  * @brief This is the Header file for A2
  * @version 0.1
