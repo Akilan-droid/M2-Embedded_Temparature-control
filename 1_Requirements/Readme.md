@@ -28,17 +28,21 @@ Not suitable for average or high temperature places.
 ### WHEN : At low Temperatures
 ## Detail requirements
 ### High Level Requirements
-High Level Requirements	Description
-HLR1	Microcontroller
-HLR2	Temperature Sensor
-HLR3	Heat Generation
-HLR4	Display
-HLR5	Software used
-Low Level Requirements
-Low Level Requirements	Description
-HLR1_LLR1	ATmega328
-HLR2_LLR1	LM35 and ADC
-HLR2_LLR2	ADC with PWM
-HLR4_LLR1	LCD and LED
-HLR5_LLR1	Code Blocks with AVR GCC compiler
-HLR5_LLR2	SimulIDE
+
+   | ID   |      Description     | 
+|----------|:-------------:|
+| HLR_1 |  Microcontroller | 
+| HLR_2 |  Temparature sensor  | 
+| HLR_3 |  Heat generation | 
+| HLR_4 |  Display  | 
+| HLR_5 |  Software used |
+### Low Level Requirements
+
+   | ID   |      Description     |  
+|----------|:-------------:|
+| LLR_1 |  Atmega328 | 
+| LLR_2 |  LM35 and ADC  | 
+| LLR_3 |  ADC with PWM   | 
+| LLR_4 |  LCD with LED | 
+| LLR_5 |  Code blocks with AVR GCC Compiler |
+| LLR_6 | SimulIDE |
