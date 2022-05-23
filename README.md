@@ -1,4 +1,4 @@
-# M2-Embedded_Temparature-control
+# Temparature controlled car seats
 In this project I developed the temparature controlled vehicle seat heating system using Embedded C , Atmega328 Microcontroller and other equipments. In American and European countries, the temperature is very low and any electronic designer should make sure that his equipment should work efficiently in that whether. In our project, the sensor will sense is the driver has been seated or not and if the driver seated then he need to set the temperature accordingly (i.e) It is automated to set the temparature as per the Atmospheric temparature by sensing it. Based on that our controller will set the heater to required temperature. The Heater will generate the heat and a LCD display will show requested the temperature. In our project we have used ATmega328 microcontroller along with temperature sensor, Switches, Heat generator,and LCD diplay,etc.
 | Build | Codiga | cppcheck | Code Quality |
 |---| --- | --- |---|
